@@ -1,0 +1,1855 @@
+Package: 2ping
+Version: 4.5.1-3
+Architecture: all
+Maintainer: @termux
+Description: A bi-directional ping utility
+Homepage: https://www.finnie.org/software/2ping/
+Depends: python
+Filename: pool/main/2/2ping/2ping_4.5.1-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ack-grep
+Version: 3.7.0
+Architecture: all
+Maintainer: @termux
+Description: Tool like grep optimized for programmers
+Homepage: https://beyondgrep.com/
+Depends: perl
+Filename: pool/main/a/ack-grep/ack-grep_3.7.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ani-cli
+Version: 4.7
+Architecture: all
+Maintainer: @termux
+Description: A cli to browse and watch anime
+Homepage: https://github.com/pystardust/ani-cli
+Depends: aria2, ffmpeg, fzf, grep, sed, wget
+Filename: pool/main/a/ani-cli/ani-cli_4.7_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ant
+Version: 1.10.14
+Architecture: all
+Maintainer: @termux
+Description: Java based build tool like make
+Homepage: https://ant.apache.org/
+Depends: openjdk-17
+Filename: pool/main/a/ant/ant_1.10.14_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: apksigner
+Version: 33.0.1
+Architecture: all
+Maintainer: @termux
+Description: APK signing tool from Android SDK
+Homepage: https://developer.android.com/studio/command-line/apksigner
+Depends: openjdk-17
+Filename: pool/main/a/apksigner/apksigner_33.0.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: apt-file
+Version: 3.3
+Architecture: all
+Maintainer: @termux
+Description: search for files within packages
+Homepage: https://wiki.debian.org/apt-file
+Depends: apt, libapt-pkg-perl, libregexp-assemble-perl, perl
+Replaces: whatprovides
+Filename: pool/main/a/apt-file/apt-file_3.3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: asciidoc
+Version: 10.2.0-3
+Architecture: all
+Maintainer: @termux
+Description: Text document format for short documents, articles, books and UNIX man pages.
+Homepage: https://asciidoc.org
+Depends: docbook-xsl, libxml2-utils, python, xsltproc
+Suggests: w3m
+Filename: pool/main/a/asciidoc/asciidoc_10.2.0-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: asciidoctor
+Version: 2.0.20
+Architecture: all
+Maintainer: @termux
+Description: An implementation of AsciiDoc in Ruby
+Homepage: https://asciidoctor.org/
+Depends: ruby
+Filename: pool/main/a/asciidoctor/asciidoctor_2.0.20_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: asciinema
+Version: 2.4.0
+Architecture: all
+Maintainer: @termux
+Description: Record and share your terminal sessions, the right way
+Homepage: https://asciinema.org/
+Depends: python, ncurses-utils
+Filename: pool/main/a/asciinema/asciinema_2.4.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: aspell-de
+Version: 1:20161207.7.0
+Architecture: all
+Maintainer: @termux
+Description: German dictionary for aspell
+Homepage: http://aspell.net/
+Depends: aspell
+Filename: pool/main/a/aspell-de/aspell-de_1:20161207.7.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: aspell-en
+Version: 1:2020.12.07
+Architecture: all
+Maintainer: @termux
+Description: English dictionary for aspell
+Homepage: http://aspell.net/
+Depends: aspell
+Filename: pool/main/a/aspell-en/aspell-en_1:2020.12.07_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: aspell-es
+Version: 2:1.11-2
+Architecture: all
+Maintainer: @termux
+Description: Spanish dictionary for aspell
+Homepage: http://aspell.net/
+Depends: aspell
+Filename: pool/main/a/aspell-es/aspell-es_2:1.11-2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: aspell-fr
+Version: 2:0.50-3-1
+Architecture: all
+Maintainer: @termux
+Description: French dictionary for aspell
+Homepage: http://aspell.net/
+Depends: aspell
+Filename: pool/main/a/aspell-fr/aspell-fr_2:0.50-3-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: atool
+Version: 0.39.0-1
+Architecture: all
+Maintainer: @termux
+Description: tool for managing file archives of various types
+Homepage: https://www.nongnu.org/atool
+Depends: perl
+Recommends: arj, binutils-is-llvm | binutils, bzip2, cpio, file, gzip, lhasa, lzip, lzop, p7zip, tar, unrar, unzip, xz-utils, zip
+Suggests: bash-completion
+Filename: pool/main/a/atool/atool_0.39.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: autoconf
+Version: 2.71-2
+Architecture: all
+Maintainer: @termux
+Description: Creator of shell scripts to configure source code packages
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Depends: m4, make, perl
+Filename: pool/main/a/autoconf/autoconf_2.71-2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: autoconf-archive
+Version: 2023.02.20
+Architecture: all
+Maintainer: @termux
+Description: A collection of freely re-usable Autoconf macros
+Homepage: https://www.gnu.org/software/autoconf-archive/
+Filename: pool/main/a/autoconf-archive/autoconf-archive_2023.02.20_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: autoconf213
+Version: 2.13
+Architecture: all
+Maintainer: @termux
+Description: Creator of shell scripts to configure source code packages (legacy v2.13)
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Depends: m4, make, perl
+Filename: pool/main/a/autoconf213/autoconf213_2.13_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: autojump
+Version: 22.5.3
+Architecture: all
+Maintainer: @termux
+Description: A faster way to navigate your filesystem
+Homepage: https://github.com/wting/autojump
+Depends: python
+Filename: pool/main/a/autojump/autojump_22.5.3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: automake
+Version: 1.16.5
+Architecture: all
+Maintainer: @termux
+Description: Tool for automatically generating Makefile.in files
+Homepage: https://www.gnu.org/software/automake/
+Depends: autoconf
+Filename: pool/main/a/automake/automake_1.16.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: awesomeshot
+Version: 1.1.0
+Architecture: all
+Maintainer: @termux
+Description: A command-line screenshot tool written in bash
+Homepage: https://github.com/mayTermux/awesomeshot
+Depends: bash, bc, imagemagick, inotify-tools, termux-api
+Filename: pool/main/a/awesomeshot/awesomeshot_1.1.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: bash-completion
+Version: 2.11-2
+Architecture: all
+Maintainer: @termux
+Description: Programmable completion for the bash shell
+Homepage: https://github.com/scop/bash-completion
+Depends: bash
+Filename: pool/main/b/bash-completion/bash-completion_2.11-2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: bdsup2sub
+Version: 4.0.1
+Architecture: all
+Maintainer: @termux
+Description: A subtitle conversion tool for image based stream formats
+Homepage: https://github.com/mjuhasz/BDSup2Sub
+Depends: openjdk-17
+Filename: pool/main/b/bdsup2sub/bdsup2sub_4.0.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: beanshell
+Version: 2.1.1-1
+Architecture: all
+Maintainer: @termux
+Description: Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java
+Homepage: https://github.com/beanshell/beanshell
+Depends: dash, termux-tools
+Filename: pool/main/b/beanshell/beanshell_2.1.1-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: blackbox
+Version: 1:1.20220610
+Architecture: all
+Maintainer: @termux
+Description: Safely store secrets in Git/Mercurial/Subversion
+Homepage: https://github.com/StackExchange/blackbox
+Depends: gnupg
+Suggests: git, subversion
+Filename: pool/main/b/blackbox/blackbox_1:1.20220610_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: build-essential
+Version: 4.1
+Architecture: all
+Maintainer: @termux
+Description: A metapackage that installs essential development tools
+Homepage: https://github.com/termux/termux-packages
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Filename: pool/main/b/build-essential/build-essential_4.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: byobu
+Version: 5.133
+Architecture: all
+Maintainer: @termux
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Homepage: https://byobu.co/
+Depends: gawk, tmux
+Filename: pool/main/b/byobu/byobu_5.133_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: c-script
+Version: 0.14
+Architecture: all
+Maintainer: @termux
+Description: Compile and execute C 'scripts' in one go!
+Homepage: https://github.com/ryanmjacobs/c
+Depends: bash
+Filename: pool/main/c/c-script/c-script_0.14_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ca-certificates
+Version: 1:2023.08.22
+Architecture: all
+Maintainer: @termux
+Description: Common CA certificates
+Homepage: https://curl.se/docs/caextract.html
+Filename: pool/main/c/ca-certificates/ca-certificates_1:2023.08.22_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: cgal
+Version: 5.6
+Architecture: all
+Maintainer: @termux
+Description: Computational Geometry Algorithms Library
+Homepage: https://www.cgal.org/
+Filename: pool/main/c/cgal/cgal_5.6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: clipp
+Version: 1.2.3-1
+Architecture: all
+Maintainer: @termux
+Description: Command line interfaces for modern C++
+Homepage: https://github.com/muellan/clipp
+Filename: pool/main/c/clipp/clipp_1.2.3-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: colordiff
+Version: 1.0.21
+Architecture: all
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Description: Tool to colorize 'diff' output
+Homepage: https://www.colordiff.org/
+Depends: perl
+Filename: pool/main/c/colordiff/colordiff_1.0.21_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: composer
+Version: 2.6.6
+Architecture: all
+Maintainer: @PuneetGopinath
+Description: Dependency Manager for PHP
+Homepage: https://getcomposer.org/
+Depends: php
+Filename: pool/main/c/composer/composer_2.6.6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: cowsay
+Version: 3.7.0
+Architecture: all
+Maintainer: @termux
+Description: Program which generates ASCII pictures of a cow with a message
+Homepage: https://en.wikipedia.org/wiki/Cowsay
+Depends: perl
+Filename: pool/main/c/cowsay/cowsay_3.7.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: d8
+Version: 33.0.1
+Architecture: all
+Maintainer: @termux
+Description: DEX bytecode compiler from Android SDK
+Homepage: https://developer.android.com/studio/command-line/d8
+Depends: openjdk-17
+Filename: pool/main/d/d8/d8_33.0.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: debootstrap
+Version: 1.0.133
+Architecture: all
+Maintainer: @termux
+Description: Bootstrap a basic Debian system
+Homepage: https://wiki.debian.org/Debootstrap
+Depends: binutils | binutils-is-llvm, perl, proot, sed, wget
+Filename: pool/main/d/debootstrap/debootstrap_1.0.133_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: dex2jar
+Version: 2.4
+Architecture: all
+Maintainer: @termux
+Description: Tools to work with android .dex and java .class files
+Homepage: https://github.com/pxb1988/dex2jar
+Depends: openjdk-17
+Filename: pool/main/d/dex2jar/dex2jar_2.4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: docbook-xml
+Version: 4.5-4
+Architecture: all
+Maintainer: @termux
+Description: A widely used XML scheme for writing documentation and help
+Homepage: https://www.oasis-open.org/docbook/
+Depends: libxml2-utils
+Filename: pool/main/d/docbook-xml/docbook-xml_4.5-4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: docbook-xsl
+Version: 1.79.2-1
+Architecture: all
+Maintainer: @termux
+Description: XML stylesheets for Docbook-xml transformations
+Homepage: https://docbook.org/
+Depends: docbook-xml, libxml2-utils, xsltproc
+Filename: pool/main/d/docbook-xsl/docbook-xsl_1.79.2-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: dx
+Version: 1:1.16-7
+Architecture: all
+Maintainer: @termux
+Description: Command which takes in Java class files and converts them to format executable by Dalvik VM
+Homepage: http://developer.android.com/tools/help/index.html
+Filename: pool/main/d/dx/dx_1:1.16-7_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ecj
+Version: 1:${_VERSION}-5
+Architecture: all
+Maintainer: @termux
+Description: Eclipse Compiler for Java
+Homepage: https://www.eclipse.org/jdt/core/
+Conflicts: ecj4.6
+Filename: pool/main/e/ecj/ecj_1:${_VERSION}-5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: electrum
+Version: 4.4.6
+Architecture: all
+Maintainer: @termux
+Description: Electrum is a lightweight Bitcoin wallet
+Homepage: https://electrum.org
+Depends: python, libsecp256k1, python-pip
+Conflicts: asciinema (<< 1.4.0-1)
+Filename: pool/main/e/electrum/electrum_4.4.6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: elixir
+Version: 1.15.7
+Architecture: all
+Maintainer: @termux
+Description: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
+Homepage: https://elixir-lang.org/
+Depends: dash, erlang
+Suggests: clang, make
+Filename: pool/main/e/elixir/elixir_1.15.7_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: emscripten
+Version: 3.1.50
+Architecture: all
+Maintainer: @termux
+Description: Emscripten: An LLVM-to-WebAssembly Compiler
+Homepage: https://emscripten.org
+Depends: emscripten-binaryen, emscripten-llvm
+Recommends: nodejs-lts | nodejs, python
+Filename: pool/main/e/emscripten/emscripten_3.1.50_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: exiftool
+Version: 12.70
+Architecture: all
+Maintainer: @termux
+Description: Utility for reading, writing and editing meta information in a wide variety of files.
+Homepage: https://exiftool.org/
+Depends: perl
+Filename: pool/main/e/exiftool/exiftool_12.70_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: fennel
+Version: 1.3.0
+Architecture: all
+Maintainer: @termux
+Description: A Lisp that compiles to Lua
+Homepage: https://fennel-lang.org
+Depends: lua53
+Filename: pool/main/f/fennel/fennel_1.3.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: fff
+Version: 2.2
+Architecture: all
+Maintainer: @termux
+Description: A simple file manager written in bash
+Homepage: https://github.com/dylanaraps/fff
+Depends: bash
+Suggests: w3m-img, xdotool
+Filename: pool/main/f/fff/fff_2.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: gdrive-downloader
+Version: 1:1.1
+Architecture: all
+Maintainer: @termux
+Description: Download a gdrive folder or file easily, shell ftw
+Homepage: https://github.com/Akianonymus/gdrive-downloader
+Depends: bash, curl
+Filename: pool/main/g/gdrive-downloader/gdrive-downloader_1:1.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: geoip2-database
+Version: 20191221-2
+Architecture: all
+Maintainer: @termux
+Description: GeoLite2 IP geolocation databases compiled by MaxMind
+Homepage: https://dev.maxmind.com/geoip/geoip2/geolite2/
+Filename: pool/main/g/geoip2-database/geoip2-database_20191221-2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: gitflow-avh
+Version: 1.12.3-9
+Architecture: all
+Maintainer: @termux
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+Homepage: https://github.com/petervanderdoes/gitflow/
+Depends: dash, git
+Filename: pool/main/g/gitflow-avh/gitflow-avh_1.12.3-9_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: google-drive-upload
+Version: 4.5
+Architecture: all
+Maintainer: @termux
+Description: Bash scripts to upload files to google drive
+Homepage: https://github.com/labbots/google-drive-upload
+Depends: bash, curl
+Filename: pool/main/g/google-drive-upload/google-drive-upload_4.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: gradle
+Version: 1:8.5
+Architecture: all
+Maintainer: @termux
+Description: Powerful build system for the JVM
+Homepage: https://gradle.org/
+Depends: openjdk-17
+Filename: pool/main/g/gradle/gradle_1:8.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: groovy
+Version: 4.0.16-3
+Architecture: all
+Maintainer: @termux
+Description: A powerful multi-faceted programming language for the JVM platform
+Homepage: https://groovy-lang.org/
+Depends: libjansi (>= 2.4.0-1), openjdk-17
+Filename: pool/main/g/groovy/groovy_4.0.16-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: has
+Version: 1.5.0
+Architecture: all
+Maintainer: @termux
+Description: has checks presence of various command line tools and their versions on the path
+Homepage: https://github.com/kdabir/has
+Depends: bash
+Filename: pool/main/h/has/has_1.5.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hash-slinger
+Version: 3.3
+Architecture: all
+Maintainer: @termux
+Description: Various tools to generate special DNS records
+Homepage: https://github.com/letoams/hash-slinger
+Depends: ca-certificates, gnupg, openssh, python, pyunbound, resolv-conf, swig, python-pip
+Filename: pool/main/h/hash-slinger/hash-slinger_3.3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: help2man
+Version: 1.49.3
+Architecture: all
+Maintainer: @termux
+Description: Conversion tool to create man files
+Homepage: https://www.gnu.org/software/help2man/
+Depends: perl
+Filename: pool/main/h/help2man/help2man_1.49.3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hollywood
+Version: 1.22
+Architecture: all
+Maintainer: @termux
+Description: Fill your console with Hollywood melodrama technobabble
+Homepage: https://launchpad.net/hollywood
+Depends: bmon, byobu, cmatrix, coreutils, dash, gawk, htop, man, tree, util-linux
+Recommends: apg
+Filename: pool/main/h/hollywood/hollywood_1.22_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hr
+Version: 1.4
+Architecture: all
+Maintainer: @termux
+Description: A horizontal ruler for your terminal
+Homepage: https://github.com/LuRsT/hr
+Depends: bash
+Filename: pool/main/h/hr/hr_1.4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hunspell-en-us
+Version: 20210101
+Architecture: all
+Maintainer: @termux
+Description: American english dictionary for hunspell
+Homepage: https://hunspell.github.io
+Filename: pool/main/h/hunspell-en-us/hunspell-en-us_20210101_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hunspell-fr
+Version: 20221031
+Architecture: all
+Maintainer: @termux
+Description: French dictionary for hunspell
+Homepage: https://hunspell.github.io
+Filename: pool/main/h/hunspell-fr/hunspell-fr_20221031_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hunspell-hu
+Version: 2023.07.08
+Architecture: all
+Maintainer: @termux
+Description: Hungarian dictionary for hunspell
+Homepage: https://magyarispell.sourceforge.net/
+Filename: pool/main/h/hunspell-hu/hunspell-hu_2023.07.08_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hunspell-nl
+Version: 2013.07.22
+Architecture: all
+Maintainer: @termux
+Description: Dutch dictionary for hunspell
+Homepage: https://www.opentaal.org/
+Filename: pool/main/h/hunspell-nl/hunspell-nl_2013.07.22_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: hunspell-ru
+Version: 20210731
+Architecture: all
+Maintainer: @termux
+Description: Russian dictionary for hunspell
+Homepage: https://hunspell.github.io
+Filename: pool/main/h/hunspell-ru/hunspell-ru_20210731_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: intltool
+Version: 0.51.0-3
+Architecture: all
+Maintainer: @suhan-paradkar
+Description: The internationalization tool collection
+Homepage: https://launchpad.net/intltool
+Depends: perl, clang, make, libexpat
+Filename: pool/main/i/intltool/intltool_0.51.0-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: inxi
+Version: 3.3.31-2
+Architecture: all
+Maintainer: @termux
+Description: Full featured CLI system information tool
+Homepage: https://github.com/smxi/inxi
+Depends: perl
+Filename: pool/main/i/inxi/inxi_3.3.31-2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: jython
+Version: 2.7.3
+Architecture: all
+Maintainer: @termux
+Description: Python for the Java Platform
+Homepage: https://www.jython.org/
+Depends: openjdk-17
+Filename: pool/main/j/jython/jython_2.7.3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: kainjow-mustache
+Version: 4.1
+Architecture: all
+Maintainer: @termux
+Description: Mustache implementation for modern C++
+Homepage: https://github.com/kainjow/Mustache
+Filename: pool/main/k/kainjow-mustache/kainjow-mustache_4.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: keychain
+Version: 2.8.5-1
+Architecture: all
+Maintainer: @termux
+Description: keychain ssh-agent front-end
+Homepage: https://www.funtoo.org/Keychain
+Depends: dash, gnupg
+Filename: pool/main/k/keychain/keychain_2.8.5-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: kotlin
+Version: 1.9.21
+Architecture: all
+Maintainer: @termux
+Description: The Kotlin Programming Language
+Homepage: https://kotlinlang.org/
+Depends: openjdk-17
+Filename: pool/main/k/kotlin/kotlin_1.9.21_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: lesspipe
+Version: 2.11
+Architecture: all
+Maintainer: @termux
+Description: An input filter for the pager less
+Homepage: http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
+Depends: less
+Suggests: imagemagick, p7zip, unrar, unzip
+Filename: pool/main/l/lesspipe/lesspipe_2.11_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libasio
+Version: 1.24.0
+Architecture: all
+Maintainer: @termux
+Description: Cross-platform C++ library for network and low-level I/O programming
+Homepage: https://think-async.com/Asio
+Filename: pool/main/l/libasio/libasio_1.24.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libbcprov-java
+Version: 1.77
+Architecture: all
+Maintainer: @termux
+Description: A lightweight cryptography API for Java
+Homepage: https://www.bouncycastle.org/java.html
+Depends: openjdk-17
+Filename: pool/main/l/libbcprov-java/libbcprov-java_1.77_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libcommons-lang3-java
+Version: 3.13.0
+Architecture: all
+Maintainer: @termux
+Description: A host of helper utilities for the java.lang API
+Homepage: https://commons.apache.org/proper/commons-lang/
+Depends: openjdk-17
+Filename: pool/main/l/libcommons-lang3-java/libcommons-lang3-java_3.13.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libosmium
+Version: 2.20.0
+Architecture: all
+Maintainer: @termux
+Description: Library for reading from and writing to OSM files in XML and PBF formats
+Homepage: https://osmcode.org/libosmium/
+Filename: pool/main/l/libosmium/libosmium_2.20.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libregexp-assemble-perl
+Version: 0.38-5
+Architecture: all
+Maintainer: @termux
+Description: Perl module to merge several regular expressions
+Homepage: https://metacpan.org/pod/Regexp::Assemble
+Depends: perl
+Filename: pool/main/l/libregexp-assemble-perl/libregexp-assemble-perl_0.38-5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libspice-protocol
+Version: 0.14.4
+Architecture: all
+Maintainer: @termux
+Description: SPICE protocol headers
+Homepage: https://www.spice-space.org/
+Filename: pool/main/l/libspice-protocol/libspice-protocol_0.14.4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: libwayland-protocols
+Version: 1.31-1
+Architecture: all
+Maintainer: @termux
+Description: Wayland protocols library
+Homepage: https://wayland.freedesktop.org/
+Filename: pool/main/l/libwayland-protocols/libwayland-protocols_1.31-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: llvm-mingw-w64
+Version: 20231031
+Architecture: all
+Maintainer: @licy183
+Description: MinGW-w64 toolchain based on LLVM
+Homepage: https://github.com/mstorsjo/llvm-mingw
+Depends: clang, llvm, llvm-tools, llvm-mingw-w64-libcompiler-rt, llvm-mingw-w64-ucrt
+Recommends: llvm-mingw-w64-tools
+Conflicts: mingw-w64
+Filename: pool/main/l/llvm-mingw-w64/llvm-mingw-w64_20231031_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: llvm-mingw-w64-libcompiler-rt
+Version: 20231031
+Architecture: all
+Maintainer: @licy183
+Description: Compiler runtime libraries for LLVM-MinGW
+Homepage: https://www.llvm.org/
+Filename: pool/main/l/llvm-mingw-w64-libcompiler-rt/llvm-mingw-w64-libcompiler-rt_20231031_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: llvm-mingw-w64-ucrt
+Version: 20231031
+Architecture: all
+Maintainer: @licy183
+Description: MinGW-w64 runtime for LLVM-MinGW
+Homepage: https://www.mingw-w64.org/
+Filename: pool/main/l/llvm-mingw-w64-ucrt/llvm-mingw-w64-ucrt_20231031_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: lsix
+Version: 1.8.2
+Architecture: all
+Maintainer: @termux
+Description: Shows thumbnails in terminal using sixel graphics
+Homepage: https://github.com/hackerb9/lsix
+Depends: bash, imagemagick
+Filename: pool/main/l/lsix/lsix_1.8.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: luarocks
+Version: 3.9.2
+Architecture: all
+Maintainer: @termux
+Description: Deployment and management system for Lua modules
+Homepage: https://luarocks.org/
+Depends: curl, lua51
+Filename: pool/main/l/luarocks/luarocks_3.9.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: manpages
+Version: (6.05.01
+Architecture: all
+Maintainer: @termux
+Description: Man pages for linux kernel and C library interfaces
+Homepage: https://www.kernel.org/doc/man-pages/
+Depends: man
+Conflicts: linux-man-pages
+Replaces: linux-man-pages
+Provides: linux-man-pages
+Filename: pool/main/m/manpages/manpages_(6.05.01_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: maven
+Version: 3.9.6
+Architecture: all
+Maintainer: @masterjavaofficial
+Description: A Java software project management and comprehension tool
+Homepage: https://maven.apache.org/
+Depends: libjansi (>= 2.4.0-1), openjdk-17
+Filename: pool/main/m/maven/maven_3.9.6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: media-types
+Version: 10.1.0-1
+Architecture: all
+Maintainer: @termux
+Description: List of standard media types and their usual file extension
+Homepage: https://pagure.io/mailcap
+Conflicts: mutt (<< 1.8.3-1)
+Replaces: mime-support
+Provides: mime-support
+Filename: pool/main/m/media-types/media-types_10.1.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: mypaint-brushes
+Version: 2.0.2
+Architecture: all
+Maintainer: @termux
+Description: MyPaint brushes
+Homepage: https://github.com/mypaint/mypaint-brushes
+Filename: pool/main/m/mypaint-brushes/mypaint-brushes_2.0.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: myrepos
+Version: 1.20180726-4
+Architecture: all
+Maintainer: @termux
+Description: Tool to manage all your version control repos
+Homepage: https://myrepos.branchable.com/
+Depends: git, perl
+Filename: pool/main/m/myrepos/myrepos_1.20180726-4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: nala
+Version: 0.14.0
+Architecture: all
+Maintainer: @termux
+Description: Commandline frontend for the apt package manager
+Homepage: https://gitlab.com/volian/nala
+Depends: python-apt, python-pip
+Filename: pool/main/n/nala/nala_0.14.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ndk-multilib
+Version: 26b
+Architecture: all
+Maintainer: @termux
+Description: Multilib binaries for cross-compilation
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Filename: pool/main/n/ndk-multilib/ndk-multilib_26b_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: neofetch
+Version: 7.1.0-1
+Architecture: all
+Maintainer: @termux
+Description: Simple system information script
+Homepage: https://github.com/dylanaraps/neofetch
+Depends: bash
+Filename: pool/main/n/neofetch/neofetch_7.1.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: opencl-clhpp
+Version: 2023.04.17
+Architecture: all
+Maintainer: @termux
+Description: Khronos OpenCL C++ Headers
+Homepage: https://github.com/KhronosGroup/OpenCL-CLHPP
+Filename: pool/main/o/opencl-clhpp/opencl-clhpp_2023.04.17_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: opencl-headers
+Version: 2023.04.17
+Architecture: all
+Maintainer: @termux
+Description: Khronos OpenCL-Headers
+Homepage: https://github.com/KhronosGroup/OpenCL-Headers
+Filename: pool/main/o/opencl-headers/opencl-headers_2023.04.17_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: opengl
+Version: 0.1
+Architecture: all
+Maintainer: @termux
+Description: A metapackage for OpenGL implementation
+Homepage: https://github.com/termux/termux-packages
+Depends: libglvnd, mesa
+Filename: pool/main/o/opengl/opengl_0.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ovmf
+Version: $_ED2K_VERSION-$_FEDORA_REPO_VERSION
+Architecture: all
+Maintainer: @termux
+Description: Open Virtual Machine Firmware
+Homepage: https://www.tianocore.org/
+Filename: pool/main/o/ovmf/ovmf_$_ED2K_VERSION-$_FEDORA_REPO_VERSION_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: parallel
+Version: 20231122
+Architecture: all
+Maintainer: @termux
+Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+Homepage: https://www.gnu.org/software/parallel/
+Depends: perl
+Filename: pool/main/p/parallel/parallel_20231122_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: paruz
+Version: 1.1.2
+Architecture: all
+Maintainer: @termux
+Description: A fzf terminal UI for paru or pacman
+Homepage: https://github.com/joehillen/paruz
+Depends: bash, fzf
+Recommends: pacman
+Filename: pool/main/p/paruz/paruz_1.1.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pass
+Version: 1.7.4-2
+Architecture: all
+Maintainer: @termux
+Description: Lightweight directory-based password manager
+Homepage: https://www.passwordstore.org
+Depends: bash, coreutils, gnupg (>= 2.2.9-1), tree
+Recommends: git
+Suggests: pass-otp
+Filename: pool/main/p/pass/pass_1.7.4-2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pass-otp
+Version: 1.2.0-3
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Description: A pass extension for managing one-time-password (OTP) tokens
+Homepage: https://github.com/tadfisher/pass-otp
+Depends: oathtool, pass
+Suggests: libqrencode
+Filename: pool/main/p/pass-otp/pass-otp_1.2.0-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pastebinit
+Version: 1.5.1-1
+Architecture: all
+Maintainer: @termux
+Description: Command-line pastebin client
+Homepage: https://launchpad.net/pastebinit
+Depends: python
+Filename: pool/main/p/pastebinit/pastebinit_1.5.1-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pathpicker
+Version: 0.9.5-1
+Architecture: all
+Maintainer: @termux
+Description: Facebook PathPicker - a terminal-based file picker
+Homepage: https://facebook.github.io/PathPicker/
+Depends: bash,python
+Filename: pool/main/p/pathpicker/pathpicker_0.9.5-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pb
+Version: 2022.11.03-1
+Architecture: all
+Maintainer: @termux
+Description: A helper utility for using 0x0 pastebin services
+Homepage: https://tildegit.org/tomasino/pb
+Filename: pool/main/p/pb/pb_2022.11.03-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pdftk
+Version: 3.3.3-1
+Architecture: all
+Maintainer: @termux
+Description: A simple tool for doing everyday things with PDF documents
+Homepage: https://gitlab.com/pdftk-java/pdftk
+Depends: libbcprov-java, libcommons-lang3-java, openjdk-17
+Filename: pool/main/p/pdftk/pdftk_3.3.3-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: perl-rename
+Version: 1.14
+Architecture: all
+Maintainer: @ELWAER-M
+Description: renames multiple files using perl expressions.
+Homepage: https://search.cpan.org/~pederst/rename/
+Depends: perl
+Filename: pool/main/p/perl-rename/perl-rename_1.14_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: phpmyadmin
+Version: 5.2.1
+Architecture: all
+Maintainer: @termux
+Description: A PHP tool for administering MySQL databases
+Homepage: https://www.phpmyadmin.net
+Depends: apache2, php
+Filename: pool/main/p/phpmyadmin/phpmyadmin_5.2.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: pipes.sh
+Version: 2018.04.22
+Architecture: all
+Maintainer: @Efreak
+Description: Animated pipes terminal screensaver
+Homepage: https://github.com/pipeseroni/pipes.sh
+Depends: bash
+Filename: pool/main/p/pipes.sh/pipes.sh_2018.04.22_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: plantuml
+Version: 1.2023.13
+Architecture: all
+Maintainer: @termux
+Description: Draws UML diagrams, using a simple and human readable text description
+Homepage: https://plantuml.com/
+Depends: openjdk-17
+Filename: pool/main/p/plantuml/plantuml_1.2023.13_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: poppler-data
+Version: 0.4.12
+Architecture: all
+Maintainer: @termux
+Description: Consists of encoding files for use with poppler
+Homepage: https://poppler.freedesktop.org/
+Filename: pool/main/p/poppler-data/poppler-data_0.4.12_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: posixvala
+Version: 0.2
+Architecture: all
+Maintainer: @termux
+Description: Aims to bring back the posix profile for Vala
+Homepage: https://github.com/radare/posixvala
+Filename: pool/main/p/posixvala/posixvala_0.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: procyon-decompiler
+Version: 0.6.0-1
+Architecture: all
+Maintainer: @termux
+Description: A standalone front-end for the Java decompiler in Procyon Compiler Toolset
+Homepage: https://github.com/mstrobel/procyon
+Depends: openjdk-17
+Filename: pool/main/p/procyon-decompiler/procyon-decompiler_0.6.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: proot-distro
+Version: 4.6.0
+Architecture: all
+Maintainer: @termux
+Description: Termux official utility for managing proot'ed Linux distributions
+Homepage: https://github.com/termux/proot-distro
+Depends: bash, bzip2, coreutils, curl, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, termux-tools, xz-utils
+Suggests: bash-completion, termux-api
+Filename: pool/main/p/proot-distro/proot-distro_4.6.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: python-pip
+Version: 23.3.1
+Architecture: all
+Maintainer: @termux
+Description: The PyPA recommended tool for installing Python packages
+Homepage: https://pip.pypa.io/
+Depends: clang, make, pkg-config, python (>= 3.11.1-1)
+Filename: pool/main/p/python-pip/python-pip_23.3.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: python-tldp
+Version: 0.7.5-4
+Architecture: all
+Maintainer: @termux
+Description: Tools for publishing from TLDP sources
+Homepage: https://github.com/tLDP/python-tldp
+Depends: python, python-pip
+Filename: pool/main/p/python-tldp/python-tldp_0.7.5-4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: python-xlib
+Version: 0.33
+Architecture: all
+Maintainer: @termux
+Description: The Python X Library
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: python, python-pip
+Filename: pool/main/p/python-xlib/python-xlib_0.33_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: quilt
+Version: 0.67
+Architecture: all
+Maintainer: @termux
+Description: Allows you to easily manage large numbers of patches
+Homepage: https://savannah.nongnu.org/projects/quilt
+Depends: coreutils, diffstat, gawk, graphviz, perl
+Filename: pool/main/q/quilt/quilt_0.67_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ranger
+Version: 1.9.3-6
+Architecture: all
+Maintainer: @termux
+Description: File manager with VI key bindings
+Homepage: https://ranger.github.io/
+Depends: python, file
+Filename: pool/main/r/ranger/ranger_1.9.3-6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: rcm
+Version: 1.3.6
+Architecture: all
+Maintainer: @termux
+Description: Dotfiles management
+Homepage: https://github.com/thoughtbot/rcm
+Depends: bash
+Filename: pool/main/r/rcm/rcm_1.3.6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: rdircd
+Version: 2023.02.07
+Architecture: all
+Maintainer: @termux
+Description: A daemon that allows using a personal Discord account through an IRC client
+Homepage: https://github.com/mk-fg/reliable-discord-client-irc-daemon
+Depends: python, python-pip
+Filename: pool/main/r/rdircd/rdircd_2023.02.07_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: rsnapshot
+Version: 1.4.5
+Architecture: all
+Maintainer: @termux
+Description: A remote filesystem snapshot utility
+Homepage: https://www.rsnapshot.org/
+Depends: coreutils, openssh, perl, rsync
+Filename: pool/main/r/rsnapshot/rsnapshot_1.4.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: rxfetch
+Version: 2023.01.07
+Architecture: all
+Maintainer: @PeroSar
+Description: A custom system info fetching tool
+Homepage: https://github.com/Mangeshrex/rxfetch
+Depends: bash
+Conflicts: rxfetch-termux
+Replaces: rxfetch-termux
+Filename: pool/main/r/rxfetch/rxfetch_2023.01.07_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: sabnzbd
+Version: 4.1.0
+Architecture: all
+Maintainer: @termux
+Description: Fully automated Usenet Binary Downloader
+Homepage: https://sabnzbd.org/
+Depends: python, python-cryptography, python-sabyenc3, termux-tools, par2, unrar, p7zip, unzip
+Filename: pool/main/s/sabnzbd/sabnzbd_4.1.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: scala
+Version: 3.3.1
+Architecture: all
+Maintainer: @termux
+Description: Scala 3 compiler and standard library.
+Homepage: https://www.scala-lang.org
+Depends: openjdk-17
+Filename: pool/main/s/scala/scala_3.3.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: screenfetch
+Version: 3.9.1-1
+Architecture: all
+Maintainer: @termux
+Description: Bash Screenshot Information Tool
+Homepage: https://github.com/KittyKatt/screenFetch
+Depends: bash
+Filename: pool/main/s/screenfetch/screenfetch_3.9.1-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: sendxmpp
+Version: 1.24
+Architecture: all
+Maintainer: @termux
+Description: A perl-script to send XMPP (jabber) messages
+Homepage: https://sendxmpp.hostname.sk/
+Depends: perl, clang, make
+Filename: pool/main/s/sendxmpp/sendxmpp_1.24_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: sensible-utils
+Version: 0.0.21
+Architecture: all
+Maintainer: @termux
+Description: Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager
+Homepage: https://packages.debian.org/sid/sensible-utils
+Filename: pool/main/s/sensible-utils/sensible-utils_0.0.21_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: slashtime
+Version: 2023.01.04
+Architecture: all
+Maintainer: @termux
+Description: A small program which displays the time in various places
+Homepage: https://github.com/istathar/slashtime
+Depends: perl
+Filename: pool/main/s/slashtime/slashtime_2023.01.04_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: slugify
+Version: 2016.01.23
+Architecture: all
+Maintainer: @termux
+Description: Bash command that converts filenames and directories to a web friendly format
+Homepage: https://github.com/benlinton/slugify
+Depends: bash
+Filename: pool/main/s/slugify/slugify_2016.01.23_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: snmptt
+Version: 1.5
+Architecture: all
+Maintainer: @termux
+Description: SNMP trap translator
+Homepage: http://www.snmptt.org/
+Depends: net-snmp, perl
+Filename: pool/main/s/snmptt/snmptt_1.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: spark
+Version: 1.0.1
+Architecture: all
+Maintainer: @termux
+Description: ▁▂▃▅▂▇ in your shell
+Homepage: https://github.com/holman/spark
+Depends: bash
+Filename: pool/main/s/spark/spark_1.0.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: spirv-headers
+Version: 1.3.261.1
+Architecture: all
+Maintainer: @termux
+Description: SPIR-V Headers
+Homepage: https://github.com/KhronosGroup/SPIRV-Headers
+Filename: pool/main/s/spirv-headers/spirv-headers_1.3.261.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: srt2vobsub
+Version: 1.0-3
+Architecture: all
+Maintainer: @termux
+Description: A command-line tool that generates a pair of .idx/.sub subtitle files from a textual subtitles file
+Homepage: https://srt2vobsub.sourceforge.io/
+Depends: bdsup2sub, ffmpeg, fontconfig-utils, imagemagick, mediainfo, python, python-pip
+Filename: pool/main/s/srt2vobsub/srt2vobsub_1.0-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: sse2neon
+Version: 1.6.0
+Architecture: all
+Maintainer: @termux
+Description: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+Homepage: https://github.com/DLTcollab/sse2neon
+Filename: pool/main/s/sse2neon/sse2neon_1.6.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: stdman
+Version: 2022.07.30
+Architecture: all
+Maintainer: @termux
+Description: Formatted C++20 stdlib man pages (cppreference)
+Homepage: https://github.com/jeaye/stdman
+Depends: man
+Filename: pool/main/s/stdman/stdman_2022.07.30_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: stow
+Version: 2.3.1
+Architecture: all
+Maintainer: @termux
+Description: Tool for managing the installation of multiple software packages into a single directory
+Homepage: https://www.gnu.org/software/stow/
+Depends: perl
+Filename: pool/main/s/stow/stow_2.3.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: swaks
+Version: 20201014.0-1
+Architecture: all
+Maintainer: @termux
+Description: Swiss Army Knife for SMTP
+Homepage: http://jetmore.org/john/code/swaks/
+Depends: perl
+Filename: pool/main/s/swaks/swaks_20201014.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: tcllib
+Version: 1.21
+Architecture: all
+Maintainer: @termux
+Description: Tcl Standard Library
+Homepage: https://core.tcl-lang.org/tcllib/
+Depends: tcl
+Recommends: resolv-conf
+Filename: pool/main/t/tcllib/tcllib_1.21_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: tenki-php
+Version: 2022.05.26
+Architecture: all
+Maintainer: @termux
+Description: A simple PHP application for logging current weather conditions, notes, and waypoints
+Homepage: https://github.com/dmpop/tenki
+Depends: apache2, php
+Filename: pool/main/t/tenki-php/tenki-php_2022.05.26_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-am
+Version: 0.6.0
+Architecture: all
+Maintainer: Michal Bednarski @michalbednarski
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/termux/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Filename: pool/main/t/termux-am/termux-am_0.6.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-apt-repo
+Version: 0.5
+Architecture: all
+Maintainer: @termux
+Description: Script to create Termux apt repositories
+Homepage: https://github.com/termux/termux-apt-repo
+Depends: binutils-is-llvm | binutils, python, tar
+Filename: pool/main/t/termux-apt-repo/termux-apt-repo_0.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-create-package
+Version: 0.12.0-1
+Architecture: all
+Maintainer: @termux
+Description: Utility to create Termux packages
+Homepage: https://github.com/termux/termux-create-package
+Depends: binutils-is-llvm | binutils, python
+Filename: pool/main/t/termux-create-package/termux-create-package_0.12.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-gui-package
+Version: 0.1.6-1
+Architecture: all
+Maintainer: @tareksander
+Description: A Termux package containing utilities for Termux:GUI
+Homepage: https://github.com/tareksander/termux-gui-package
+Depends: python, python-pip
+Filename: pool/main/t/termux-gui-package/termux-gui-package_0.1.6-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-gui-pm
+Version: 1.0.0-1
+Architecture: all
+Maintainer: @tareksander
+Description: A graphical package manager for various package formats for Termux and proot-distro distros
+Homepage: https://github.com/tareksander/termux-gui-pm
+Depends: python, python-pip
+Filename: pool/main/t/termux-gui-pm/termux-gui-pm_1.0.0-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-keyring
+Version: 3.11
+Architecture: all
+Maintainer: @termux
+Description: GPG public keys for the official Termux repositories
+Homepage: https://github.com/termux
+Filename: pool/main/t/termux-keyring/termux-keyring_3.11_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-licenses
+Version: 2.0-3
+Architecture: all
+Maintainer: @termux
+Description: Contains LICENSE files for common licenses
+Homepage: https://termux.dev
+Filename: pool/main/t/termux-licenses/termux-licenses_2.0-3_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-services
+Version: 0.13-1
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Description: Service daemon for Termux
+Homepage: https://github.com/termux/termux-services/
+Depends: coreutils, dpkg, runit
+Filename: pool/main/t/termux-services/termux-services_0.13-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: termux-tools
+Version: 1.39.4
+Architecture: all
+Maintainer: @termux
+Description: Basic system tools for Termux
+Homepage: https://termux.dev/
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-am-socket (>= 1.5.0), termux-exec, util-linux, xz-utils, dialog
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Conflicts: procps (<< 3.3.15-2)
+Filename: pool/main/t/termux-tools/termux-tools_1.39.4_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: testssl.sh
+Version: 3.0.8
+Architecture: all
+Maintainer: @termux
+Description: Testing TLS/SSL encryption anywhere on any port.
+Homepage: https://testssl.sh/
+Depends: bash, ca-certificates, coreutils, curl, gawk, openssl-tool, procps, resolv-conf, socat
+Filename: pool/main/t/testssl.sh/testssl.sh_3.0.8_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: tex-gyre
+Version: 2.501-1
+Architecture: all
+Maintainer: @termux
+Description: The TeX Gyre (TG) Collection of Fonts
+Homepage: https://www.gust.org.pl/projects/e-foundry/tex-gyre/
+Filename: pool/main/t/tex-gyre/tex-gyre_2.501-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: texlive-installer
+Version: 20230313
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Description: Wrapper around texlive's install-tl script
+Homepage: https://www.tug.org/texlive/
+Depends: perl, texlive-bin (>= 20200406-4), gnupg, curl, lz4, xz-utils
+Replaces: texlive
+Filename: pool/main/t/texlive-installer/texlive-installer_20230313_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: translate-shell
+Version: 0.9.7.1
+Architecture: all
+Maintainer: @termux
+Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+Homepage: https://www.soimort.org/translate-shell
+Depends: bash, curl, gawk, less, rlwrap
+Recommends: hunspell, mpv
+Filename: pool/main/t/translate-shell/translate-shell_0.9.7.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: tsu
+Version: 8.6.0
+Architecture: all
+Maintainer: @termux
+Description: A su wrapper for Termux
+Homepage: https://github.com/cswl/tsu
+Filename: pool/main/t/tsu/tsu_8.6.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ttf-dejavu
+Version: 2.37-8
+Architecture: all
+Maintainer: @termux
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Homepage: https://dejavu-fonts.github.io/
+Filename: pool/main/t/ttf-dejavu/ttf-dejavu_2.37-8_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: tur-repo
+Version: 1.0.1
+Architecture: all
+Maintainer: @termux-user-repository
+Description: A single and trusted place for all unofficial/less popular termux packages
+Homepage: https://github.com/termux-user-repository/tur
+Filename: pool/main/t/tur-repo/tur-repo_1.0.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ugit
+Version: 5.7
+Architecture: all
+Maintainer: @termux
+Description: ugit helps you undo your last git command with grace. Your damage control git buddy
+Homepage: https://github.com/Bhupesh-V/ugit
+Depends: bash, fzf, ncurses-utils
+Filename: pool/main/u/ugit/ugit_5.7_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: unicode-data
+Version: 15.1.0
+Architecture: all
+Maintainer: @termux
+Description: The Unicode Character Database (UCD)
+Homepage: https://unicode.org/ucd/
+Filename: pool/main/u/unicode-data/unicode-data_15.1.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: update-info-dir
+Version: 6.8-6
+Architecture: all
+Maintainer: @termux
+Description: Update or create index file from all installed info files in directory
+Homepage: https://packages.debian.org/sid/texinfo
+Filename: pool/main/u/update-info-dir/update-info-dir_6.8-6_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: uthash
+Version: 2.3.0
+Architecture: all
+Maintainer: @termux
+Description: C preprocessor implementations of a hash table and a linked list
+Homepage: https://troydhanson.github.io/uthash/
+Filename: pool/main/u/uthash/uthash_2.3.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: vcsh
+Version: 2.0.5
+Architecture: all
+Maintainer: @termux
+Description: Config manager based on Git
+Homepage: https://github.com/RichiH/vcsh
+Depends: git
+Filename: pool/main/v/vcsh/vcsh_2.0.5_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: vulkan-headers
+Version: 1.3.273
+Architecture: all
+Maintainer: @termux
+Description: Vulkan Header files and API registry
+Homepage: https://github.com/KhronosGroup/Vulkan-Headers
+Filename: pool/main/v/vulkan-headers/vulkan-headers_1.3.273_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: vulkan-loader
+Version: 0.0.2
+Architecture: all
+Maintainer: @termux
+Description: A metapackage that provides vulkan loader library
+Homepage: https://github.com/termux/termux-packages
+Depends: vulkan-loader-android | vulkan-loader-generic
+Filename: pool/main/v/vulkan-loader/vulkan-loader_0.0.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: wasi-libc
+Version: 20
+Architecture: all
+Maintainer: @termux
+Description: Libc for WebAssembly programs built on top of WASI system calls
+Homepage: https://wasi.dev/
+Filename: pool/main/w/wasi-libc/wasi-libc_20_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: wgetpaste
+Version: 2.33
+Architecture: all
+Maintainer: @termux
+Description: wgetpaste is a shell script that allows its users to upload log.
+Homepage: https://github.com/zlin/wgetpaste
+Depends: wget
+Suggests: xclip
+Filename: pool/main/w/wgetpaste/wgetpaste_2.33_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: xcb-proto
+Version: 1.16.0
+Architecture: all
+Maintainer: @termux
+Description: XML-XCB protocol descriptions
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Filename: pool/main/x/xcb-proto/xcb-proto_1.16.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: xorg-util-macros
+Version: 1.20.0
+Architecture: all
+Maintainer: @termux
+Description: X.Org Autotools macros
+Homepage: https://xorg.freedesktop.org/
+Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.20.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: xorgproto
+Version: 2023.2
+Architecture: all
+Maintainer: @termux
+Description: X.Org X11 Protocol headers
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Filename: pool/main/x/xorgproto/xorgproto_2023.2_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: xtrans
+Version: 1.5.0
+Architecture: all
+Maintainer: @termux
+Description: X transport library
+Homepage: https://xorg.freedesktop.org/
+Filename: pool/main/x/xtrans/xtrans_1.5.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: yarn
+Version: 1.22.19-1
+Architecture: all
+Maintainer: @termux
+Description: Fast, reliable, and secure dependency management
+Homepage: https://yarnpkg.com/
+Depends: nodejs | nodejs-lts
+Filename: pool/main/y/yarn/yarn_1.22.19-1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: ytfzf
+Version: 2.6.1
+Architecture: all
+Maintainer: @termux
+Description: A POSIX script that helps you find Youtube videos (without API)
+Homepage: https://github.com/pystardust/ytfzf
+Depends: curl, jq
+Recommends: fzf, mpv
+Filename: pool/main/y/ytfzf/ytfzf_2.6.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: z-push
+Version: 2.7.1
+Architecture: all
+Maintainer: @termux
+Description: An open-source application to synchronize ActiveSync compatible devices and Outlook
+Homepage: https://z-push.org/
+Depends: apache2, php
+Filename: pool/main/z/z-push/z-push_2.7.1_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: zeronet
+Version: 0.7.1-8
+Architecture: all
+Maintainer: @termux
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+Homepage: https://zeronet.io/
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Filename: pool/main/z/zeronet/zeronet_0.7.1-8_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000
+
+Package: zsh-completions
+Version: 0.35.0
+Architecture: all
+Maintainer: @termux
+Description: Additional completion definitions for Zsh
+Homepage: https://github.com/zsh-users/zsh-completions
+Depends: zsh
+Filename: pool/main/z/zsh-completions/zsh-completions_0.35.0_all.deb
+Size: 0
+SHA256: 0000000000000000000000000000000000000000000000000000000000000000

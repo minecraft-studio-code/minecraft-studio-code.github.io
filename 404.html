@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index of /</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #1e1e1e; 
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; 
+            padding: 30px 20px; 
+            color: #d4d4d4; 
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: #252526; 
+            border-radius: 8px; 
+            border: 1px solid #3e3e42; 
+            overflow: hidden;
+        }
+        .header { 
+            background: #2d2d30; 
+            padding: 20px 24px; 
+            border-bottom: 1px solid #3e3e42; 
+        }
+        .header h1 { 
+            font-weight: 400; 
+            font-size: 1.5rem; 
+            color: #cccccc; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+        }
+        .header h1::before { content: "📁"; font-size: 1.8rem; }
+        .path { color: #808080; font-size: 0.9rem; margin-top: 8px; }
+        .table-header {
+            display: grid;
+            grid-template-columns: 40px 1fr 100px;
+            padding: 12px 24px;
+            background: #2d2d30;
+            border-bottom: 1px solid #3e3e42;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #808080;
+            text-transform: uppercase;
+        }
+        .file-row {
+            display: grid;
+            grid-template-columns: 40px 1fr 100px;
+            padding: 12px 24px;
+            border-bottom: 1px solid #3e3e42;
+            text-decoration: none;
+            color: #d4d4d4;
+            transition: background 0.15s;
+        }
+        .file-row:hover { background: #2a2d2e; }
+        .file-row.dir { color: #e5c07b; }
+        .footer { 
+            padding: 16px 24px; 
+            border-top: 1px solid #3e3e42; 
+            color: #6e6e6e; 
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .loading, .error { padding: 40px; text-align: center; color: #808080; }
+        .error { color: #f48771; }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #808080;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .back-link:hover { color: #d4d4d4; }
+        .size { text-align: right; padding-right: 16px; }
+    </style>
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-link" id="backBtn" style="display: none;">← 返回上级目录</a>
+    <div class="container">
+        <div class="header">
+            <h1 id="page-title">Index of /</h1>
+            <div class="path" id="full-path"></div>
+        </div>
+        
+        <div class="table-header">
+            <div></div><div>Name</div><div class="size">Size</div>
+        </div>
+        
+        <a href="../" class="file-row dir" id="parent-link" style="display: none;">
+            <span>📁</span><span>../</span><span class="size">—</span>
+        </a>
+        
+        <div id="file-list"><div class="loading">正在加载目录...</div></div>
+        
+        <div class="footer">
+            <span>✨ GitHub API 动态索引</span>
+            <span id="repo-info"></span>
+        </div>
+    </div>
+    
+    <script>
+        (function() {
+            // 配置
+            const repoOwner = 'minecraft-studio-code';
+            const repoName = 'minecraft-studio-code.github.io';
+            
+            // 获取当前路径
+            let currentPath = window.location.pathname;
+            
+            // 去掉开头的 /
+            if (currentPath.startsWith('/')) {
+                currentPath = currentPath.substring(1);
+            }
+            
+            // 如果路径为空，说明在根目录
+            const isRoot = currentPath === '';
+            
+            // 更新页面标题
+            const titleEl = document.getElementById('page-title');
+            const pathEl = document.getElementById('full-path');
+            const repoInfoEl = document.getElementById('repo-info');
+            
+            titleEl.textContent = `📁 Index of /${currentPath}`;
+            pathEl.textContent = `https://${repoOwner}.github.io/${currentPath}`;
+            repoInfoEl.textContent = `${repoOwner}/${repoName}`;
+            
+            // 显示/隐藏返回按钮和父目录链接
+            const backBtn = document.getElementById('backBtn');
+            const parentLink = document.getElementById('parent-link');
+            
+            if (!isRoot) {
+                backBtn.style.display = 'inline-block';
+                parentLink.style.display = 'grid';
+            }
+            
+            // 构建 API URL
+            const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${currentPath}`;
+            
+            const container = document.getElementById('file-list');
+            
+            // 格式化大小
+            function formatSize(bytes) {
+                if (bytes === 0 || !bytes) return '—';
+                const k = 1024;
+                const sizes = ['B', 'KB', 'MB', 'GB'];
+                const i = Math.floor(Math.log(bytes) / Math.log(k));
+                return (bytes / Math.pow(k, i)).toFixed(1) + ' ' + sizes[i];
+            }
+            
+            // 获取图标
+            function getIcon(item) {
+                if (item.type === 'dir') return '📁';
+                const name = item.name.toLowerCase();
+                if (name.endsWith('.html')) return '🌐';
+                if (name.endsWith('.js')) return '📜';
+                if (name.endsWith('.css')) return '🎨';
+                if (name.endsWith('.png') || name.endsWith('.jpg') || name.endsWith('.gif')) return '🖼️';
+                if (name.endsWith('.deb')) return '📦';
+                if (name.endsWith('.md')) return '📝';
+                return '📄';
+            }
+            
+            // 获取数据
+            fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        if (response.status === 404) {
+                            throw new Error('目录不存在或为空');
+                        }
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    return response.json();
+                })
+                .then(items => {
+                    if (!Array.isArray(items)) {
+                        // 如果返回的不是数组，说明路径指向的是一个文件而不是目录
+                        // 这种情况下，显示文件信息
+                        container.innerHTML = `
+                            <div class="file-row">
+                                <span>${getIcon(items)}</span>
+                                <span>${items.name}</span>
+                                <span class="size">${formatSize(items.size)}</span>
+                            </div>
+                            <div style="padding: 20px; text-align: center;">
+                                <a href="${items.download_url}" style="color: #4ec9b0; text-decoration: none;">⬇️ 下载文件</a>
+                            </div>
+                        `;
+                        return;
+                    }
+                    
+                    // 排序：文件夹优先，然后按名称
+                    items.sort((a, b) => {
+                        if (a.type === b.type) return a.name.localeCompare(b.name);
+                        return a.type === 'dir' ? -1 : 1;
+                    });
+                    
+                    container.innerHTML = '';
+                    
+                    if (items.length === 0) {
+                        container.innerHTML = '<div class="loading">📭 目录为空</div>';
+                        return;
+                    }
+                    
+                    items.forEach(item => {
+                        const a = document.createElement('a');
+                        // 链接地址：如果是目录，链接到子目录的 index.html
+                        a.href = item.type === 'dir' ? `./${item.name}/` : `./${item.name}`;
+                        a.className = 'file-row' + (item.type === 'dir' ? ' dir' : '');
+                        
+                        const icon = getIcon(item);
+                        const size = item.type === 'dir' ? '—' : formatSize(item.size);
+                        
+                        a.innerHTML = `
+                            <span>${icon}</span>
+                            <span>${item.name}${item.type === 'dir' ? '/' : ''}</span>
+                            <span class="size">${size}</span>
+                        `;
+                        
+                        container.appendChild(a);
+                    });
+                })
+                .catch(error => {
+                    console.error('加载失败:', error);
+                    container.innerHTML = `<div class="error">❌ 加载失败: ${error.message}</div>`;
+                });
+        })();
+    </script>
+</body>
+</html>
